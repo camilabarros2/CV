@@ -17,12 +17,14 @@ body{
 h1 {
     font-size: 50px;
     font-weight: lighter;
-    color: #B393E8;
+    color: #BBF2D8;
+    border-bottom: 1px solid #BBF2D8;
 }
 
 h2 {
     padding-bottom: 4px;
     padding-top: 10px;
+    color: #BBF2D8;
     
 }
 
@@ -51,7 +53,7 @@ p {
    
     flex: 2;
     padding: 60px;
-    background-color: #FDF8FF;
+   background-image: linear-gradient(to right, #3D5473, #6CBBA6 );
     
    
     
@@ -78,6 +80,13 @@ p {
     
 }
 
+.contato h2 {
+    color: #3D5473;
+}
+
+.contato h3 {
+    color: #588B8C;
+}
 .contato:hover{
     border-bottom: 2px solid #80808077;
     box-shadow: 0px 5px 10px #80808077;
@@ -100,6 +109,13 @@ p {
     
 }
 
+.edu h2{
+    color: #3D5473;
+}
+.edu h3 {
+    color: #588B8C;
+}
+
 .edu:hover{
     border-bottom: 2px solid #80808077;
     box-shadow: 0px 5px 10px #80808077;
@@ -117,6 +133,14 @@ p {
 
 }
 
+.experiencia h2 {
+    color: #3D5473;
+}
+
+.experiencia h3 {
+    color: #588B8C;
+}
+
 .experiencia:hover{
     border-bottom: 2px solid #80808077;
     box-shadow: 0px 5px 10px #80808077;
@@ -132,6 +156,13 @@ p {
  
 }
 
+.habilidade h2 {
+    color: #3D5473;
+}
+
+.habilidade h3 {
+    color: #588B8C;
+}
 .habilidade:hover{
     border-bottom: 2px solid #80808077;
     box-shadow: 0px 5px 10px #80808077;
