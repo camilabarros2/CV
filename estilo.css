@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Monteserat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: #F8FEFC;
+    
+    
+     
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: #B393E8;
+}
+
+h2 {
+    padding-bottom: 4px;
+    padding-top: 10px;
+    
+}
+
+h3{
+    padding-top: 10px;
+    color: #423657;
+}
+
+p {
+    margin-top:10px;
+}
+.info {
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.info .card-info {
+   align-items: center;
+   justify-content: center;
+}
+
+.esquerda {
+   
+    flex: 2;
+    padding: 60px;
+    background-color: #FDF8FF;
+    
+   
+    
+}
+
+
+
+.direita {
+    flex: 1;
+    padding: 20px;
+    background-color: #FDF8FF;
+    display: flex;
+
+   
+}
+.contato {
+    
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 60px 20px 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #80808077;
+    
+}
+
+.contato:hover{
+    border-bottom: 2px solid #80808077;
+    box-shadow: 0px 5px 10px #80808077;
+ 
+}
+
+
+  
+
+
+.edu {
+    
+    max-width: 1140px;
+    margin: auto;
+    background-color: FDF8FF;
+    padding: 0 60px 20px 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+  
+    
+}
+
+.edu:hover{
+    border-bottom: 2px solid #80808077;
+    box-shadow: 0px 5px 10px #80808077;
+}
+
+.experiencia {
+    max-width: 1140px;
+    margin: auto;
+    border: 1px solid #80808077;
+    
+    padding: 0 60px 20px 60px;
+    text-align: justify;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.experiencia:hover{
+    border-bottom: 2px solid #80808077;
+    box-shadow: 0px 5px 10px #80808077;
+}
+
+.habilidade {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 60px 20px 60px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+ 
+}
+
+.habilidade:hover{
+    border-bottom: 2px solid #80808077;
+    box-shadow: 0px 5px 10px #80808077;
+}
+
+
+
+
+
+
+.educacao {
+    max-width: 1140px;
+    margin: auto;
+    background-color: cadetblue;
+    padding: 0 0 20px 20px;
+}
+
+@media (max-width:450px) {
+    h1 {
+        font-size: 30px;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: #B393E8;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+
+}
